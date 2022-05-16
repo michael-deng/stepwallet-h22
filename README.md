@@ -2,6 +2,8 @@
 
 Stepwallet is a Hedera vault secured by your social graph. It allows you to require multiple signatures for Hedera transactions on the smart contract level, which grants much greater flexibility.
 
+<b>This is a fresh repo with environment variables and private credentials removed, for submission to the Hedera22 Hackathon.</b>
+
 <h2>dApp</h2>
 
 <b>Directory overview:</b>
