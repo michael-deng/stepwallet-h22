@@ -1,0 +1,27 @@
+{
+    "name": "Stepwallet",
+    "description": "Stepwallet chrome extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage"],
+    "host_permissions": [
+        "https://*.ngrok.io/"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "48": "/images/inactive-icon-48.png",
+            "128": "/images/inactive-icon-128.png"
+        }
+    },
+    "icons": {
+        "48": "/images/inactive-icon-48.png",
+        "128": "/images/inactive-icon-128.png"
+    },
+    "externally_connectable": {
+        "matches": ["https://localhost:3000/"]
+    }
+}

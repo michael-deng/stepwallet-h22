@@ -1,0 +1,98 @@
+.app {
+  margin: auto;
+  padding: 30px 10px 30px 10px;
+  width: 80%;
+  overflow: auto;
+}
+
+.block {
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 0 20px 0 20px;
+  background: white;
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 0 10px #DDDDDD;
+}
+
+.buttonrow {
+  position: absolute;
+  bottom: 20px;
+}
+
+button {
+  display: block;
+  float: left;
+  border: 1px solid black;
+  cursor: pointer;
+  background: white;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  width: 160px;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button:hover {
+  color: #2D84EB;
+  border: 1px solid #2D84EB;
+}
+
+.formrow {
+  position: absolute;
+  bottom: 100px;
+  width: 500px;
+}
+
+.formrow input {
+  background-color: white;
+  border: 1px solid black;
+  margin-right: 5px;
+  border-radius: 5px;
+  padding: 5px 5px;
+  height: 20px;
+}
+
+.formrow input[type=submit] {
+  background-color: #2D84EB;
+  border: 1px solid #2D84EB;
+  color: white;
+  cursor: pointer;
+  padding: 5px 5px;
+  height: 32px;
+}
+
+.link {
+  background-color: #2D84EB;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.formrow form {
+  float: left;
+}
+
+.formrow div {
+  float: left;
+  height: 32px;
+}
+
+.formrow .pending, .formrow .success {
+  float: right;
+}
+
+.pending {
+  color: orange;
+}
+
+.success {
+  color: green;
+}

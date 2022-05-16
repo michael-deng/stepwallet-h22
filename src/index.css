@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  line-height: 125%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.topbar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 0;
+  box-shadow: 0 0 10px #DDDDDD;
+  position: relative;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+#root {
+  height: calc(100% - 70px);
+  background-color: #F8F8F8;
+}
